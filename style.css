@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+header #date-time p{
+    margin: 0;
+    font-size: 14px;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+main img {
+    display: block;
+    margin: 0 auto 20px;
+    width: auto;
+    height: auto;
+}
+
+main p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+main p span {
+    font-weight: bold;
+}
+
+main div {
+    margin-bottom: 20px;
+}
+
+main h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+main div.goals {
+    padding: 10px;
+    border-left: 5px solid #333;
+    background-color: #f9f9f9;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer div {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: nowrap;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px){
+    main {
+        padding: 10px;
+    }
+    main h2 {
+        font-size: 20px
+    }
+}
+
+@media (max-width: 480px) {
+    main {
+        padding: 5px;
+    }
+    main h2{
+        font-size: 18px;
+    }
+    footer div {
+        flex-direction: row;
+        gap: 10px;
+    }
+}
